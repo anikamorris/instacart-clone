@@ -11,6 +11,8 @@
 		CFC67BC22548E24700E1E58F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC67BC12548E24700E1E58F /* ContentView.swift */; };
 		CFC67BC42548E24D00E1E58F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC67BC32548E24D00E1E58F /* Assets.xcassets */; };
 		CFC67BC72548E24D00E1E58F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC67BC62548E24D00E1E58F /* Preview Assets.xcassets */; };
+		CFEBE28F2549FFBE0095C411 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE28E2549FFBE0095C411 /* CartButton.swift */; };
+		CFEBE296254A085B0095C411 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE295254A085B0095C411 /* NavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		CFC67BC32548E24D00E1E58F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFC67BC62548E24D00E1E58F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFC67BC82548E24D00E1E58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEBE28E2549FFBE0095C411 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		CFEBE295254A085B0095C411 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				CFC67BC32548E24D00E1E58F /* Assets.xcassets */,
 				CFC67BC82548E24D00E1E58F /* Info.plist */,
 				CFC67BC52548E24D00E1E58F /* Preview Content */,
+				CFEBE28E2549FFBE0095C411 /* CartButton.swift */,
+				CFEBE295254A085B0095C411 /* NavBar.swift */,
 			);
 			path = "instacart-clone";
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC67BC22548E24700E1E58F /* ContentView.swift in Sources */,
+				CFEBE296254A085B0095C411 /* NavBar.swift in Sources */,
 				CFC67BC02548E24700E1E58F /* instacart_cloneApp.swift in Sources */,
+				CFEBE28F2549FFBE0095C411 /* CartButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
