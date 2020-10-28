@@ -56,13 +56,11 @@
 		CFC67BBE2548E24700E1E58F /* instacart-clone */ = {
 			isa = PBXGroup;
 			children = (
+				CFEBE298254A0A5E0095C411 /* Views */,
 				CFC67BBF2548E24700E1E58F /* instacart_cloneApp.swift */,
-				CFC67BC12548E24700E1E58F /* ContentView.swift */,
 				CFC67BC32548E24D00E1E58F /* Assets.xcassets */,
 				CFC67BC82548E24D00E1E58F /* Info.plist */,
 				CFC67BC52548E24D00E1E58F /* Preview Content */,
-				CFEBE28E2549FFBE0095C411 /* CartButton.swift */,
-				CFEBE295254A085B0095C411 /* NavBar.swift */,
 			);
 			path = "instacart-clone";
 			sourceTree = "<group>";
@@ -73,6 +71,16 @@
 				CFC67BC62548E24D00E1E58F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFEBE298254A0A5E0095C411 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFC67BC12548E24700E1E58F /* ContentView.swift */,
+				CFEBE28E2549FFBE0095C411 /* CartButton.swift */,
+				CFEBE295254A085B0095C411 /* NavBar.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
