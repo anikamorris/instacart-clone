@@ -12,7 +12,7 @@ struct CartButton: View {
         Button(action: {}) {
             HStack {
                 Image("cart").resizable()
-                    .frame(width: 20, height: 20, alignment: .center)
+                    .frame(width: 20, height: 17, alignment: .center)
                     .aspectRatio(contentMode: .fit)
                 Text("0")
             }
@@ -23,7 +23,7 @@ struct CartButton: View {
         .padding(.bottom, 5)
         .foregroundColor(.white)
         .background(Color.green)
-        .cornerRadius(10)
+        .cornerRadius(20)
     }
 }
 

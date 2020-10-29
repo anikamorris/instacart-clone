@@ -13,6 +13,11 @@
 		CFC67BC72548E24D00E1E58F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC67BC62548E24D00E1E58F /* Preview Assets.xcassets */; };
 		CFEBE28F2549FFBE0095C411 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE28E2549FFBE0095C411 /* CartButton.swift */; };
 		CFEBE296254A085B0095C411 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE295254A085B0095C411 /* NavBar.swift */; };
+		CFEBE29B254A0F0F0095C411 /* LocationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE29A254A0F0F0095C411 /* LocationButton.swift */; };
+		CFEBE29F254A19460095C411 /* YourStoresRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE29E254A19460095C411 /* YourStoresRow.swift */; };
+		CFEBE2A3254A19780095C411 /* MoreStoresRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE2A2254A19780095C411 /* MoreStoresRow.swift */; };
+		CFEBE2A7254A1B8B0095C411 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE2A6254A1B8B0095C411 /* Store.swift */; };
+		CFEBE2AD254B64BE0095C411 /* MoreStoresList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE2AC254B64BE0095C411 /* MoreStoresList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		CFC67BC82548E24D00E1E58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFEBE28E2549FFBE0095C411 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 		CFEBE295254A085B0095C411 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		CFEBE29A254A0F0F0095C411 /* LocationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationButton.swift; sourceTree = "<group>"; };
+		CFEBE29E254A19460095C411 /* YourStoresRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourStoresRow.swift; sourceTree = "<group>"; };
+		CFEBE2A2254A19780095C411 /* MoreStoresRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreStoresRow.swift; sourceTree = "<group>"; };
+		CFEBE2A6254A1B8B0095C411 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		CFEBE2AC254B64BE0095C411 /* MoreStoresList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreStoresList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		CFC67BBE2548E24700E1E58F /* instacart-clone */ = {
 			isa = PBXGroup;
 			children = (
+				CFEBE2A5254A1B7F0095C411 /* Models */,
 				CFEBE298254A0A5E0095C411 /* Views */,
 				CFC67BBF2548E24700E1E58F /* instacart_cloneApp.swift */,
 				CFC67BC32548E24D00E1E58F /* Assets.xcassets */,
@@ -77,10 +88,22 @@
 			isa = PBXGroup;
 			children = (
 				CFC67BC12548E24700E1E58F /* ContentView.swift */,
-				CFEBE28E2549FFBE0095C411 /* CartButton.swift */,
 				CFEBE295254A085B0095C411 /* NavBar.swift */,
+				CFEBE28E2549FFBE0095C411 /* CartButton.swift */,
+				CFEBE29A254A0F0F0095C411 /* LocationButton.swift */,
+				CFEBE29E254A19460095C411 /* YourStoresRow.swift */,
+				CFEBE2A2254A19780095C411 /* MoreStoresRow.swift */,
+				CFEBE2AC254B64BE0095C411 /* MoreStoresList.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CFEBE2A5254A1B7F0095C411 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFEBE2A6254A1B8B0095C411 /* Store.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFEBE2AD254B64BE0095C411 /* MoreStoresList.swift in Sources */,
+				CFEBE29B254A0F0F0095C411 /* LocationButton.swift in Sources */,
 				CFC67BC22548E24700E1E58F /* ContentView.swift in Sources */,
+				CFEBE2A3254A19780095C411 /* MoreStoresRow.swift in Sources */,
+				CFEBE2A7254A1B8B0095C411 /* Store.swift in Sources */,
 				CFEBE296254A085B0095C411 /* NavBar.swift in Sources */,
+				CFEBE29F254A19460095C411 /* YourStoresRow.swift in Sources */,
 				CFC67BC02548E24700E1E58F /* instacart_cloneApp.swift in Sources */,
 				CFEBE28F2549FFBE0095C411 /* CartButton.swift in Sources */,
 			);

@@ -14,22 +14,45 @@ struct ContentView: View {
                 Button(action: {
                     print("Tapped")
                 }, label: {
-                    Image("menu").resizable()
-                        .frame(width: 30, height: 30, alignment: .center)
+                    Image("menu")
+                        .resizable()
+                        .frame(width: 25, height: 25, alignment: .center)
                 }).padding()
             }, center: {
-                Image("carrotlogo").resizable()
-                    .frame(width: 30, height: 30, alignment: .center)
+                Image("carrotlogo")
+                    .resizable()
+                    .frame(width: 20, height: 20, alignment: .center)
                     .aspectRatio(contentMode: .fit)
             }, right: {
                 CartButton()
             })
-            Text("Hi, Anika")
-                .font(.title2)
-                .fontWeight(.heavy)
-                .foregroundColor(Color(red: 0.1, green: 0.1, blue: 0.1, opacity: 1.0))
-                .padding()
-            Spacer()
+            .padding(.leading, 10)
+            .padding(.trailing, 10)
+            .padding(.bottom, 0)
+            VStack(alignment: .center) {
+                Text("Hi, Anika")
+                    .font(.title2)
+                    .fontWeight(.heavy)
+                    .foregroundColor(Color(red: 0.15, green: 0.15, blue: 0.15, opacity: 1.0))
+                LocationButton()
+                    .offset(y: -15)
+            }
+            .offset(y: -15)
+            VStack(alignment: .leading) {
+                Text("Your stores")
+                    .font(.title2)
+                    .fontWeight(.heavy)
+                    .foregroundColor(Color(red: 0.15, green: 0.15, blue: 0.15, opacity: 1.0))
+                    .offset(y: -30.0)
+                YourStoresRow()
+                    .offset(y: -20.0)
+                Text("More stores")
+                    .font(.title2)
+                    .fontWeight(.heavy)
+                    .foregroundColor(Color(red: 0.15, green: 0.15, blue: 0.15, opacity: 1.0))
+                MoreStoresList()
+            }
+            .padding()
         }
     }
 }
